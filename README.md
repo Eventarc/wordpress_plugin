@@ -1,9 +1,9 @@
 # Eventarc
-**Contributors:** andrew@eventarc.com
-**Tags:** eventarc, events
-**Requires at least:** 3.0
-**Tested up to:** 3.1
-**Stable tag:** 1.0.0
+**Contributors:** andrew@eventarc.com  
+**Tags:** eventarc, events  
+**Requires at least:** 3.0  
+**Tested up to:** 3.1  
+**Stable tag:** 1.0.0  
 
 This plugin will display your current events within wordpress
 
