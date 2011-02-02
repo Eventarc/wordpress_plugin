@@ -1,13 +1,13 @@
-# Eventarc
-**Contributors:** andrew@eventarc.com
-**Tags:** eventarc, events
-**Requires at least:** 3.0
-**Tested up to:** 3.1
-**Stable tag:** 1.0.0
+=== Eventarc ===
+Contributors: andrew@eventarc.com
+Tags: eventarc, events
+Requires at least: 3.0
+Tested up to: 3.1
+Stable tag: 1.0.0
 
-This plugin will display your current events within wordpress
+Eventarc will display your current events within wordpress
 
-## Description
+== Description ==
 There are three ways you can show Eventarc events on your wordpress site (after setting your username).
 
 1. Drag the Eventarc widget to one of the widget panels
@@ -17,16 +17,15 @@ There are three ways you can show Eventarc events on your wordpress site (after 
 See also: [Eventarc](http://www.eventarc.com/).
 
 
-## Installation
+== Installation ==
 Upload the Eventarc plugin to your blog, Activate it, then enter your username.
 
 
-## Todo
+== Todo ==
 Add in caching
 Have an option to retrieve the events via an ajax call
 
 
-## Changelog
-### 1.0.0
+== Changelog ==
+= 1.0.0 =
 Imported existing plugin into a better framework.
-
