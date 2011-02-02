@@ -1,4 +1,4 @@
-# Eventarc
+# Eventarc Wordpress Plugin
 **Contributors:** andrew@eventarc.com  
 **Tags:** eventarc, events  
 **Requires at least:** 3.0  
