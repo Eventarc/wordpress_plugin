@@ -77,7 +77,7 @@ function eventarc_conf() {
 		'new_key_invalid' => array('color' => 'd22', 'text' => __('The user name you entered is invalid. Please double-check it.')),
 		'new_key_failed' => array('color' => 'd22', 'text' => __('The user name you entered could not be verified because a connection to eventarc.com could not be established. Please check your server configuration.')),
 		'no_connection' => array('color' => 'd22', 'text' => __('There was a problem connecting to the Eventarc server. Please check your server configuration.')),
-		'key_empty' => array('color' => 'aa0', 'text' => sprintf(__('Please enter an your username. (<a href="%s" style="color:#fff">Get your username.</a>)'), 'https://myeventarc.com/register')),
+		'key_empty' => array('color' => 'aa0', 'text' => sprintf(__('Please enter an your username. (<a href="%s" style="color:#fff">Get your username.</a>)'), 'https://my.eventarc.com/register')),
 		'key_valid' => array('color' => '2d2', 'text' => __('This username is valid.')),
 		'key_failed' => array('color' => 'aa0', 'text' => __('The username below was previously validated but a connection to eventarc.com can not be established at this time. Please check your server configuration.')));
 ?>
@@ -253,7 +253,7 @@ function widget_eventarc_register() {
 		$u_name = get_option('eventarc_u_name');
 		$doc = new DOMDocument();
 
-		if ( $doc->load('http://myeventarc.com/rss/user/'.$u_name.'/current',LIBXML_NOWARNING) === false){
+		if ( $doc->load('http://my.eventarc.com/rss/user/'.$u_name.'/current',LIBXML_NOWARNING) === false){
 			return '';
 		}
 		
